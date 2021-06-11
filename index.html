@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Currículo da Pamela ☻</title>
+</head>
+
+<body>
+    <div class="container-fluid d-flex">
+        <div class="d-flex col-3 card-perfil justify-content-center align-items-center">
+            <div class="card-foto d-flex flex-column">
+                <img src="./images/avatar.jpg" alt="minha foto">
+                <hr>
+                <button onclick="clickNoSobre()" class="d-flex justify-content-center btn-perfil text-uppercase"
+                    id="btn-sobre">Sobre</button>
+                <button onclick="clickNoConhecimentos()" class="d-flex justify-content-center btn-perfil text-uppercase"
+                    id="btn-conhecimentos">Conhecimentos</button>
+                <button onclick="clickNoObjetivos()" class="d-flex justify-content-center btn-perfil text-uppercase"
+                    id="btn-objetivos">Objetivos</button>
+            </div>
+        </div>
+        <div class="d-flex col-9 card-info flex-column justify-content-center align-items-start">
+            <header id="header" class="d-flex flex-column">
+                <div>
+                    <h1 class="font-weight-bold text-uppercase">
+                        Pamela <span class="texto-roxo">Moraes Badermann</span>
+                    </h1>
+                </div>
+                <div>
+                    <h4 class="font-weight-bold">
+                        Full Stack Web Developer Student
+                    </h4>
+                    <h6 class="font-weight-bold">Taquara/RS | <span
+                            class="texto-roxo text-lowercase">badermann.pamela@gmail.com</span></h6>
+                </div>
+                <hr>
+            </header>
+            <div id="card-sobre" class="text card-sobre">
+                <p>
+                <h5 class="font-weight-bold"> Olá, seja bem vindo ao meu currículo!</h5>
+                </p>
+                <p>Me chamo Pamela, sou estudante de programação e atualmente sou aluna
+                    do Programa Starter, que é um bootcamp de formação completa em Desenvolvimento
+                    Web Full Stack criado pela Growdev.
+                </p>
+                <p>A metadologia desse bootcamp é baseada no
+                    modelo iterativo e incremental, onde, basicamente, acontecem ciclos (iterações) que passam
+                    por todas as etapas da engenharia de software e ao final é gerado um incremento de produto,
+                    ou seja, o software vai evoluindo de forma incremental.
+                </p>
+                <p>
+                    Trabalhei por quase 6 anos no Grupo Crisdu, meu primeiro emprego, onde comecei como Cortadora e
+                    minha última conquista foi assumir o cargo de Auxiliar de Qualidade. Adquiri muito conhecimento
+                    durante essa trajetória, fiz curso Técnico em Qualidade pela instituição SENAC/RS, desenvolvi
+                    habilidades e fiz diversas conexões.
+                </p>
+            </div>
+            <div id="card-objetivos" class="text card-objetivos">
+                <p>
+                    No momento estou em transição de carreira, mas estou em busca de uma oportunidade para demonstrar
+                    minhas habilidades, agregando valor à empresa com o brilho no olhar de quem está migrando para a área que
+                    mais ama!
+                </p>
+                <p>
+                    Tenho uma longa caminhada de aprendizagem, mas acredito que possa compensar a falta de
+                    experiência com dedicação e empenho.
+                </p>
+                <p>Atenciosamente, Pamela Badermann ♥ </p>
+            </div>
+            <div id="card-conhecimentos" class="text card-conhecimentos">
+                <p>
+                    Estou cursando o IV módulo do Programa Starter e o atual objeto de aprendizado é <b>Banco de
+                        Dados</b>,
+                    conceitos de <b>DDL</b> e <b>DML</b>, e também estamos aprendendo/exercitando linguagem <b>SQL</b>
+                    usando a
+                    ferramenta DBeaver.
+                </p>
+                <p>
+                    Nos primeiros módulos aprendemos <b>HTML</b>, <b>CSS</b>, <b>Bootstrap</b>, <b>JavaScript</b>,
+                    enfim,
+                    basicamente a parte Frontend.
+                </p>
+                <p>
+                    Nos módulos posteriores aprendemos <b>Git</b>, entramos na parte de Backend com <b>Node.js</b>,
+                    entramos na parte de <b>Cloud Computing</b>, <b>API Rest</b> e Deploy de aplicações em nuvem.
+                </p>
+                <p>
+                    Durante o curso de Técnico em Qualidade, estudei Auditorias da Qualidade, Ferramentas da Qualidade,
+                    Gestão Ambiental, Gestão da Qualidade de Produtos e Serviços, Gestão de Processos, Gestão de
+                    Projetos, Normatização e Legislação Aplicada (principalmente ISO 9001 e 14001), Planejamento
+                    Estratégico da Qualidade, Segurança do Trabalho entre outros conteúdos.
+                </p>
+            </div>
+            <footer class="d-flex" id="footer">
+                <nav>
+                    <a href="https://github.com/PamelaMBadermann" alt="minha conta github" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pamelabadermann/" alt="minha conta linkedin"
+                        target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pamelabadermann/" alt="minha conta instagram"
+                        target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </nav>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="./js/card.js"></script>
+</body>
+
+</html>

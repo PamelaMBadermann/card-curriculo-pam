@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    background: #6039bc;
+}
+
+.card-perfil {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.card-info {
+    padding-left: 40px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    background: #fff;
+    height: 100vh;
+}
+
+.card-info {
+    color: #222;
+}
+
+
+.texto-roxo {
+    color: #6039bc;
+}
+
+img {
+    width: 150;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.btn-perfil {
+    font-weight: bold;
+    height: 30px;
+    width: 150;
+    text-align: center;
+    color:#3f2380;
+    background-color: #6039bc;
+    border: 1px solid #6039bc;
+}
+
+.btn-perfil:hover {
+    color: #fff;
+    background-color: #6039bc;
+    border: 1px solid #6039bc;
+    transition-duration: 3s;
+}
+
+.text {
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+i {
+    margin-right: 30px;
+    color: #777;
+    font-size: 40px;
+}
+
+i:hover {
+    color: #4d2e96;
+}
